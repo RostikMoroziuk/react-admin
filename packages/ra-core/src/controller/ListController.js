@@ -159,9 +159,14 @@ export class ListController extends Component {
     updateData(query) {
         const params = query || this.getQuery();
         const { sort, order, page = 1, perPage, filter } = params;
+        const lastId = Math.min(
+            this.props.ids.length,
+            page * perPage
+        )
         const pagination = {
             page: parseInt(page, 10),
             perPage: parseInt(perPage, 10),
+            seek: this.props.ids[lastId - 1]
         };
         const permanentFilter = this.props.filter;
         this.props.crudGetList(

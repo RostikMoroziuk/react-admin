@@ -10,7 +10,8 @@ import Title from '../layout/Title';
 import DefaultPagination from './Pagination';
 import DefaultBulkActions from './BulkActions';
 import DefaultActions from './ListActions';
-import { ListController, getListControllerProps } from 'ra-core';
+import { getListControllerProps } from 'ra-core';
+import { ListController } from 'ra-core-forked';
 import defaultTheme from '../defaultTheme';
 
 const styles = {

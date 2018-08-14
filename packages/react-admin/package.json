@@ -1,5 +1,5 @@
 {
-    "name": "react-admin",
+    "name": "react-admin-forked",
     "version": "2.2.0",
     "description": "A frontend Framework for building admin applications on top of REST services, using ES6, React and Material UI",
     "files": [
@@ -32,6 +32,7 @@
     "dependencies": {
         "ra-core": "^2.2.0",
         "ra-language-english": "^2.2.0",
-        "ra-ui-materialui": "^2.2.0"
+        "ra-ui-materialui": "^2.2.0",
+        "ra-ui-materialui-forked": "^2.2.0"
     }
 }
